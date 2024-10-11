@@ -1,0 +1,20 @@
+:root {
+	--font-family: "Lato", sans-serif;
+	--second-font-family: "Raleway", sans-serif;
+
+	--text-color: #ffffff;
+	--accent-color: #3e9cdc;
+	--second-accent-color: #42a9ed;
+	--hover-color: #43abf0;
+	--border-accent-color: #286690;
+
+	--global-margin-top: 80;
+	--mobile-section-padding-top: 30;
+	--mobile-section-padding-bottom: 50;
+
+	--header-height: 100;
+	--header-deduct-height: 40;
+}
+
+$maxWidthContainer: 1200;
+$containerPadding: 30;

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Employcity test</title>
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+    <body>
+        <header class="header fix">
+            <div class="container">
+                <div class="header__row">
+                    <a href="/" class="logo" data-last-three-letters="net">loremipsum.</a>
+                    <div class="header__menu">
+                        <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                        <label class="burger-btn" for="burger-checkbox"></label>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li>
+                                    <a href="#">бизнес</a>
+                                </li>
+                                <li>
+                                    <a href="#">о нас</a>
+                                </li>
+                                <li>
+                                    <a href="#">цены</a>
+                                </li>
+                                <li>
+                                    <a href="#order">оформить заказ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main-screen" aria-label="main-screen">
+                <div class="container">
+                    <div class="main-screen__content">
+                        <h1 class="title title-main">
+                            <span>Lorem ipsum</span>
+                            dolor sit ametconsectetur
+                            <span>adipiscing</span>
+                        </h1>
+                        <div class="main-screen__text">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+                            <ul>
+                                <li>- Totam rem aperiam eaque ipsa</li>
+                                <li>- Sit voluptatem accusantium doloremque laudantium</li>
+                                <li>- Sed ut perspiciatis, unde omnis iste natus error</li>
+                            </ul>
+                        </div>
+                        <div class="main-screen__btns">
+                            <a href="#order" class="btn btn-action btn_blue">
+                                <span>заказать</span>
+                            </a>
+                            <a href="#" class="btn btn-action btn_white">
+                                <span>подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="order" id="order" aria-label="order">
+                <div class="container">
+                    <div class="order__content">
+                        <h2 class="title title-section">
+                            оформление
+                            <span>заказа</span>
+                        </h2>
+                        <p class="order__description">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+                        <div class="order__steps">
+                            <div class="order__step">
+                                <div class="circle">
+                                    <svg class="icon icon--search">
+                                        <use href="./img/sprite.svg#search"></use>
+                                    </svg>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <div class="order__step">
+                                <div class="circle">
+                                    <svg class="icon icon--per">
+                                        <use href="./img/sprite.svg#per"></use>
+                                    </svg>
+                                </div>
+                                <p>Consecteturadipiscing elit</p>
+                            </div>
+                            <div class="order__step">
+                                <div class="circle">
+                                    <svg class="icon icon--file">
+                                        <use href="./img/sprite.svg#file"></use>
+                                    </svg>
+                                </div>
+                                <p>Sed do eiusmod tempor</p>
+                            </div>
+                            <div class="order__step">
+                                <div class="circle">
+                                    <svg class="icon icon--message">
+                                        <use href="./img/sprite.svg#message"></use>
+                                    </svg>
+                                </div>
+                                <p>Esse cillum dolore eu fugiat</p>
+                            </div>
+                            <div class="order__step">
+                                <div class="circle">
+                                    <svg class="icon icon--money">
+                                        <use href="./img/sprite.svg#money"></use>
+                                    </svg>
+                                </div>
+                                <p>Excepteur sint occaecat cupidatat non proident</p>
+                            </div>
+                        </div>
+                        <div class="order__form">
+                            <form
+                                action="#"
+                                method="post"
+                                id="form"
+                                class="form"
+                            >
+                                <div class="form__grid">
+                                    <input type="hidden" required>
+                                    <div class="form-element select">
+                                        <div class="select__trigger">
+                                            <span>Выберите тип системы:</span>
+                                            <svg class="icon icon--arrow">
+                                                <use href="./img/sprite.svg#arrow"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="select__wrapper">
+                                            <ul class="select__list">
+                                                <li data-value="Sed ut perspiciatis">Sed ut perspiciatis</li>
+                                                <li data-value="Nemo enim ipsam">Nemo enim ipsam</li>
+                                                <li data-value="Et harum quidem">Et harum quidem</li>
+                                                <li data-value="Temporibus autem">Temporibus autem</li>
+                                                <li data-value="Itaque earum rerum">Itaque earum rerum</li>
+                                                <li data-value="Sed ut perspiciatis">Sed ut perspiciatis</li>
+                                                <li data-value="Nemo enim ipsam">Nemo enim ipsam</li>
+                                                <li data-value="Et harum quidem">Et harum quidem</li>
+                                                <li data-value="Temporibus autem">Temporibus autem</li>
+                                                <li data-value="Itaque earum rerum">Itaque earum rerum</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        class="input form-element"
+                                        placeholder="Ваш e-mail"
+                                        required
+                                    >
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        class="input form-element"
+                                        placeholder="Ваше имя"
+                                        required
+                                    >
+                                    <div class="form__range range">
+                                        <div class="range__text">
+                                            <p class="range__title">Sed ut perspiciatis, unde omnis iste natus</p>
+                                            <span class="range__per"></span>
+                                        </div>
+                                        <input type="range" value="75" name="range">
+                                    </div>
+                                    <label for="file-input" class="form-element btn btn-uploadFile">
+                                        <svg class="icon icon--file2">
+                                            <use href="./img/sprite.svg#file2"></use>
+                                        </svg>
+                                        <span class="btn-uploadFile__title">прикрепить файл</span>
+                                        <input type="file" id="file-input" name="file">
+                                    </label>
+                                    <button type="submit" class="form__submit btn btn-submit btn_blue">отправить</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__copyright">
+                        ©
+                        <span id="year"></span>
+                        «LoremIpsum.net» Все права защищены.
+                    </div>
+                    <div class="footer__list footer__money">
+                        <div class="footer__item">
+                            <svg class="icon icon--qiwi">
+                                <use href="./img/sprite.svg#qiwi"></use>
+                            </svg>
+                            <span>QIWI wallet</span>
+                        </div>
+                        <div class="footer__item">
+                            <img src="./img/yandex-money.svg" alt="yandex-money">
+                            <span>Yandex Money</span>
+                        </div>
+                        <div class="footer__item">
+                            <svg class="icon icon--web-money">
+                                <use href="./img/sprite.svg#web-money"></use>
+                            </svg>
+                            <span>Web Money</span>
+                        </div>
+                    </div>
+                    <div class="footer__list">
+                        <div class="footer__item">
+                            <a href="mailto:info@ipsum228.com" class="footer__link">
+                                <svg class="icon icon--message">
+                                    <use href="./img/sprite.svg#message"></use>
+                                </svg>
+                                <span>info@ipsum228.com</span>
+                            </a>
+                        </div>
+                        <div class="footer__item">
+                            <a href="https://vk.com/" target="_blank" class="footer__link">
+                                <svg class="icon icon--vk">
+                                    <use href="./img/sprite.svg#vk"></use>
+                                </svg>
+                                <span>Мы вконтакте</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
